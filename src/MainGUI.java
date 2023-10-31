@@ -170,6 +170,10 @@ public class MainGUI extends JFrame implements ActionListener {
              RemoveCastMemberGUI removeCastMemberGUI = new RemoveCastMemberGUI(start.getlistofmovies());
              removeCastMemberGUI.setVisible(true);
              break;
+            case "Generate Reports":
+             TotalTicketsSoldGUI totalTicketsSoldGUI = new TotalTicketsSoldGUI(start.getlistofmovies());
+             totalTicketsSoldGUI.setVisible(true);
+             break;
 
         }
     }
