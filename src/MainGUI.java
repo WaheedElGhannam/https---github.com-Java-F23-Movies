@@ -34,8 +34,6 @@ public class MainGUI extends JFrame implements ActionListener {
             addOption("Add Cast Member");
             addOption("Remove Crew Member");
             addOption("Generate Reports");
-            addOption("Manage Theater Schedules and Seating");
-            addOption("Historical Showtimes and Theater Performance");
         } else {
             addOption("View List of Available Movies");
             addOption("Search for movies by Genre");
